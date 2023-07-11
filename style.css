@@ -1,0 +1,109 @@
+/* Estilos generales */
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(23, 23, 23, 0.496), rgba(37, 37, 37, 0.6)),url("img/fondo.avif");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+  }
+
+  .form-control {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+  .container {
+    max-width: 800px;
+    margin: 2px;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+  }
+  
+  .img-fluid {
+    max-width: 800px;
+    margin: 2px;
+    padding: 20px;
+  }
+
+  .logo {
+    height: 60px;
+    margin-top: 0px;
+}
+
+  .icono {
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 350px;
+    align-items: center;
+}
+
+.text-black {
+  color: black;
+}
+
+  /* Estilos del encabezado */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #ffffff;
+  }
+
+  /* Estilos de las secciones */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    color: #ffffff;
+  }
+  
+  section p {
+    color: #ffffff;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    color: #ffffff;
+    margin-left: 20px;
+  }
+  
+  /* Estilos del formulario */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+  }
