@@ -168,7 +168,7 @@
                     <div class="card mb-4 text-center border" style="background-color: transparent;">
                         <div class="card-body">
                             <img src="img/contact-image.png" alt="Contact Image" class="img-fluid animate__animated animate__fadeIn" width="200" height="200">
-                            <form action="send_email.php" method="POST">
+                            <form action="https://formsubmit.co/20b3010238@untels.edu.pe" method="POST">
                                 <div class="form-group">
                                     <label for="name">Nombre:</label>
                                     <input type="text" class="form-control" id="name" name="name">
@@ -178,11 +178,20 @@
                                     <input type="email" class="form-control" id="email" name="email">
                                 </div>
                                 <button type="submit" class="btn btn-info">Enviar</button>
+
+                                <!-- <input type="hidden" name="_next" value=""> -->
                             </form>
                         </div>
                     </div>
-                </div>
+                </div>                 
             </div>
+            <div id="form-container" class="form-group">
+                <label for="celular">O comunícate con nosotros vía WhatsApp</label>
+                <div id="whatsapp" class="form-group">
+                    <img src="img/whatsapp.webp" alt="About Image" width="150" height="150">
+                    <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=51956452397&text=Bienvenido%20a%20Dark%20kitchen" target="_blank" role="button">Iniciar chat</a>
+                </div> 
+            </div> 
         </div>
     </section>
 
@@ -193,10 +202,7 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
 
     <script>
         var animatedElements = document.querySelectorAll('.animate__animated');

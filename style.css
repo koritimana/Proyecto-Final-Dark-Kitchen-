@@ -13,6 +13,21 @@ body {
     color: #ffffff;
   }
 
+  body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+
+
   .form-control {
     background: transparent !important;
     color: #fff !important;
